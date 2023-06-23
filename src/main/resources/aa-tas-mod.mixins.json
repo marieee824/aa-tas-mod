@@ -4,6 +4,7 @@
   "package": "com.marie.aatasmod.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
+    "CatEntityMixin",
     "HorseBondWithPlayerGoalMixin"
   ],
   "client": [
