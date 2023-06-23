@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "aa-tas-mod",
+  "version": "${version}",
+  "name": "aa-tas-mod",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": ""
+  },
+  "license": "GPL-3.0",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.marie.aatasmod.AATasMod"
+    ]
+  },
+  "mixins": [
+    "aa-tas-mod.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "minecraft": "${minecraft_version}"
+  }
+}
