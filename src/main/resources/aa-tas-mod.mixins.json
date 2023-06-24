@@ -12,6 +12,7 @@
     "ZombieVillagerEntityMixin"
   ],
   "client": [
+    "DebugHudMixin"
   ],
   "injectors": {
     "defaultRequire": 1
