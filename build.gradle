@@ -64,6 +64,9 @@ jar {
         rename { "${it}_${project.archivesBaseName}"}
     }
 }
+loom {
+    accessWidenerPath = file("src/main/resources/aatas.accesswidener")
+}
 
 // configure the maven publication
 publishing {

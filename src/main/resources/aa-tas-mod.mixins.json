@@ -7,7 +7,7 @@
     "CatEntityMixin",
     "DrownedEntityMixin",
     "HorseBondWithPlayerGoalMixin",
-    "PhantomSpawnerMixin",
+    "TradeOffersMixin",
     "WolfEntityMixin",
     "ZombieVillagerEntityMixin"
   ],
